@@ -8,31 +8,31 @@
         Title="MainWindow" Height="496" Width="676">
     <Grid>
         <Button x:Name="btnC" Content="" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top" Width="80" Height="399" Background="White" Click="BtnC_Click" />
-        <Button x:Name="btnD" Content="" HorizontalAlignment="Left" Margin="90,30,0,0" VerticalAlignment="Top" Width="80" Height="399" Background="White"/>
-        <Button x:Name="btnE" Content="" HorizontalAlignment="Left" Margin="170,30,0,0" VerticalAlignment="Top" Width="80" Height="399" Background="White"/>
-        <Button x:Name="btnF" Content="" HorizontalAlignment="Left" Margin="250,30,0,0" VerticalAlignment="Top" Width="80" Height="399" Background="White"/>
-        <Button x:Name="btnG" Content="" HorizontalAlignment="Left" Margin="330,30,0,0" VerticalAlignment="Top" Width="80" Height="399" Background="White"/>
-        <Button x:Name="btnA" Content="" HorizontalAlignment="Left" Margin="410,30,0,0" VerticalAlignment="Top" Width="80" Height="399" Background="White"/>
-        <Button x:Name="btnB" Content="" HorizontalAlignment="Left" Margin="490,30,0,0" VerticalAlignment="Top" Width="80" Height="399" Background="White"/>
-        <Button x:Name="btnC2" Content="" HorizontalAlignment="Left" Margin="570,30,0,2" VerticalAlignment="Top" Width="80" Height="399" Background="White"/>
-        <Button x:Name="btnCS" Content="" HorizontalAlignment="Left" Margin="64,30,0,0" VerticalAlignment="Top" Width="50" Height="255" Background="Black"/>
-        <Button x:Name="btnDS" Content="" HorizontalAlignment="Left" Margin="145,30,0,0" VerticalAlignment="Top" Width="50" Height="255" Background="Black"/>
-        <Button x:Name="btnFS" Content="" HorizontalAlignment="Left" Margin="306,30,0,0" VerticalAlignment="Top" Width="50" Height="255" Background="Black"/>
-        <Button x:Name="btnGS" Content="" HorizontalAlignment="Left" Margin="387,30,0,0" VerticalAlignment="Top" Width="50" Height="255" Background="Black"/>
-        <Button x:Name="btnAS" Content="" HorizontalAlignment="Left" Margin="466,30,0,0" VerticalAlignment="Top" Width="50" Height="255" Background="Black"/>
-        <TextBlock HorizontalAlignment="Left" Margin="32,365,0,0" TextWrapping="Wrap" Text="C" VerticalAlignment="Top" FontWeight="Bold" FontSize="48"/>
-        <TextBlock HorizontalAlignment="Left" Margin="118,365,0,0" TextWrapping="Wrap" Text="D" VerticalAlignment="Top" FontWeight="Bold" FontSize="48"/>
-        <TextBlock HorizontalAlignment="Left" Margin="196,365,0,0" TextWrapping="Wrap" Text="E" VerticalAlignment="Top" FontWeight="Bold" FontSize="48"/>
-        <TextBlock HorizontalAlignment="Left" Margin="276,365,0,0" TextWrapping="Wrap" Text="F" VerticalAlignment="Top" FontWeight="Bold" FontSize="48"/>
-        <TextBlock HorizontalAlignment="Left" Margin="360,365,0,0" TextWrapping="Wrap" Text="G" VerticalAlignment="Top" FontWeight="Bold" FontSize="48"/>
-        <TextBlock HorizontalAlignment="Left" Margin="436,365,0,0" TextWrapping="Wrap" Text="A" VerticalAlignment="Top" FontWeight="Bold" FontSize="48"/>
-        <TextBlock HorizontalAlignment="Left" Margin="517,365,0,0" TextWrapping="Wrap" Text="B" VerticalAlignment="Top" FontWeight="Bold" FontSize="48"/>
-        <TextBlock HorizontalAlignment="Left" Margin="596,365,0,0" TextWrapping="Wrap" Text="C" VerticalAlignment="Top" FontWeight="Bold" FontSize="48"/>
-        <TextBlock HorizontalAlignment="Left" Margin="74,246,0,0" TextWrapping="Wrap" Text="C#" VerticalAlignment="Top" FontSize="24" Foreground="White"/>
-        <TextBlock HorizontalAlignment="Left" Margin="157,246,0,0" TextWrapping="Wrap" Text="D#" VerticalAlignment="Top" FontSize="24" Foreground="White"/>
-        <TextBlock HorizontalAlignment="Left" Margin="316,246,0,0" TextWrapping="Wrap" Text="F#" VerticalAlignment="Top" FontSize="24" Foreground="White"/>
-        <TextBlock HorizontalAlignment="Left" Margin="399,246,0,0" TextWrapping="Wrap" Text="G#" VerticalAlignment="Top" FontSize="24" Foreground="White"/>
-        <TextBlock HorizontalAlignment="Left" Margin="476,246,0,0" TextWrapping="Wrap" Text="A#" VerticalAlignment="Top" FontSize="24" Foreground="White"/>
+        <Button x:Name="btnD" Content="" HorizontalAlignment="Left" Margin="90,30,0,0" VerticalAlignment="Top" Width="80" Height="399" Background="White" Click="BtnD_Click"/>
+        <Button x:Name="btnE" Content="" HorizontalAlignment="Left" Margin="170,30,0,0" VerticalAlignment="Top" Width="80" Height="399" Background="White" Click="BtnE_Click"/>
+        <Button x:Name="btnF" Content="" HorizontalAlignment="Left" Margin="250,30,0,0" VerticalAlignment="Top" Width="80" Height="399" Background="White" Click="BtnF_Click"/>
+        <Button x:Name="btnG" Content="" HorizontalAlignment="Left" Margin="330,30,0,0" VerticalAlignment="Top" Width="80" Height="399" Background="White" Click="BtnG_Click"/>
+        <Button x:Name="btnA" Content="" HorizontalAlignment="Left" Margin="410,30,0,0" VerticalAlignment="Top" Width="80" Height="399" Background="White" Click="BtnA_Click"/>
+        <Button x:Name="btnB" Content="" HorizontalAlignment="Left" Margin="490,30,0,0" VerticalAlignment="Top" Width="80" Height="399" Background="White" Click="BtnB_Click"/>
+        <Button x:Name="btnC2" Content="" HorizontalAlignment="Left" Margin="570,30,0,2" VerticalAlignment="Top" Width="80" Height="399" Background="White" Click="BtnC2_Click"/>
+        <Button x:Name="btnCS" Content="" HorizontalAlignment="Left" Margin="64,30,0,0" VerticalAlignment="Top" Width="50" Height="255" Background="Black" Click="BtnCS_Click"/>
+        <Button x:Name="btnDS" Content="" HorizontalAlignment="Left" Margin="145,30,0,0" VerticalAlignment="Top" Width="50" Height="255" Background="Black" Click="BtnDS_Click"/>
+        <Button x:Name="btnFS" Content="" HorizontalAlignment="Left" Margin="306,30,0,0" VerticalAlignment="Top" Width="50" Height="255" Background="Black" Click="BtnFS_Click"/>
+        <Button x:Name="btnGS" Content="" HorizontalAlignment="Left" Margin="387,30,0,0" VerticalAlignment="Top" Width="50" Height="255" Background="Black" Click="BtnGS_Click"/>
+        <Button x:Name="btnAS" Content="" HorizontalAlignment="Left" Margin="466,30,0,0" VerticalAlignment="Top" Width="50" Height="255" Background="Black" Click="BtnAS_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="32,365,0,0" TextWrapping="Wrap" Text="C" VerticalAlignment="Top" FontWeight="Bold" FontSize="48" IsEnabled="False"/>
+        <TextBlock HorizontalAlignment="Left" Margin="118,365,0,0" TextWrapping="Wrap" Text="D" VerticalAlignment="Top" FontWeight="Bold" FontSize="48" IsEnabled="False"/>
+        <TextBlock HorizontalAlignment="Left" Margin="196,365,0,0" TextWrapping="Wrap" Text="E" VerticalAlignment="Top" FontWeight="Bold" FontSize="48" IsEnabled="False"/>
+        <TextBlock HorizontalAlignment="Left" Margin="276,365,0,0" TextWrapping="Wrap" Text="F" VerticalAlignment="Top" FontWeight="Bold" FontSize="48" IsEnabled="False"/>
+        <TextBlock HorizontalAlignment="Left" Margin="360,365,0,0" TextWrapping="Wrap" Text="G" VerticalAlignment="Top" FontWeight="Bold" FontSize="48" IsEnabled="False"/>
+        <TextBlock HorizontalAlignment="Left" Margin="436,365,0,0" TextWrapping="Wrap" Text="A" VerticalAlignment="Top" FontWeight="Bold" FontSize="48" IsEnabled="False"/>
+        <TextBlock HorizontalAlignment="Left" Margin="517,365,0,0" TextWrapping="Wrap" Text="B" VerticalAlignment="Top" FontWeight="Bold" FontSize="48" IsEnabled="False"/>
+        <TextBlock HorizontalAlignment="Left" Margin="596,365,0,0" TextWrapping="Wrap" Text="C" VerticalAlignment="Top" FontWeight="Bold" FontSize="48" IsEnabled="False"/>
+        <TextBlock HorizontalAlignment="Left" Margin="74,246,0,0" TextWrapping="Wrap" Text="C#" VerticalAlignment="Top" FontSize="24" Foreground="White" IsEnabled="False"/>
+        <TextBlock HorizontalAlignment="Left" Margin="157,246,0,0" TextWrapping="Wrap" Text="D#" VerticalAlignment="Top" FontSize="24" Foreground="White" IsEnabled="False"/>
+        <TextBlock HorizontalAlignment="Left" Margin="316,246,0,0" TextWrapping="Wrap" Text="F#" VerticalAlignment="Top" FontSize="24" Foreground="White" IsEnabled="False"/>
+        <TextBlock HorizontalAlignment="Left" Margin="399,246,0,0" TextWrapping="Wrap" Text="G#" VerticalAlignment="Top" FontSize="24" Foreground="White" IsEnabled="False"/>
+        <TextBlock HorizontalAlignment="Left" Margin="476,246,0,0" TextWrapping="Wrap" Text="A#" VerticalAlignment="Top" FontSize="24" Foreground="White" IsEnabled="False"/>
 
     </Grid>
 </Window>
